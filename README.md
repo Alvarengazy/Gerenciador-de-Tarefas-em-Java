@@ -1,149 +1,98 @@
-# ☕ Gerenciador de Tarefas — Java
+# ☕ Gerenciador de Tarefas | Java
 
 <p align="center">
-  Um projeto de console desenvolvido para praticar Java, fortalecer a lógica de programação e aprender a construir aplicações organizadas.
+  Um mini projeto de console desenvolvido em Java para praticar lógica de programação e os fundamentos da linguagem.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+">
-  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-blue?style=for-the-badge" alt="Em desenvolvimento">
-  <img src="https://img.shields.io/badge/Projeto-Educacional-green?style=for-the-badge" alt="Projeto educacional">
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+  ![Status](https://img.shields.io/badge/Status-Concluído-2ea44f?style=for-the-badge)
+  ![Tipo](https://img.shields.io/badge/Projeto-Mini%20Projeto-blue?style=for-the-badge)
 </p>
 
 ---
 
 ## 📌 Sobre o projeto
 
-O **Gerenciador de Tarefas** é uma aplicação de console desenvolvida em Java com o objetivo de consolidar os fundamentos da programação por meio de um projeto prático.
+O Gerenciador de Tarefas é uma aplicação de console que permite cadastrar tarefas com nome e horário, visualizar as tarefas registradas e remover itens da lista.
 
-A aplicação permite cadastrar tarefas com nome e horário, visualizar os registros e remover tarefas. O projeto está em desenvolvimento e será expandido com novas funcionalidades conforme o avanço dos estudos.
+O projeto foi desenvolvido como exercício prático para consolidar conhecimentos de Java e desenvolver a capacidade de construir aplicações funcionais.
 
-### ⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 
-- [x] Cadastro de tarefas com nome e horário.
-- [x] Listagem de tarefas cadastradas.
-- [x] Remoção de tarefas selecionadas.
-- [ ] Conclusão e acompanhamento do status das tarefas.
-- [ ] Estatísticas das tarefas.
+- ✅ Cadastro de tarefas com nome e horário.
+- ✅ Listagem das tarefas registradas.
+- ✅ Remoção de tarefas selecionadas.
+- ✅ Validação de entradas.
+- ✅ Menu interativo pelo console.
 
-### 🛠️ Tecnologias e conceitos
+## 🛠️ Tecnologias e conceitos
 
-| Tecnologia / conceito | Aplicação |
-|---|---|
-| Java | Linguagem principal |
-| `Scanner` | Leitura de entradas |
-| `ArrayList` | Armazenamento de dados em memória |
-| Métodos | Organização e reutilização de código |
-| Estruturas de repetição | Percorrer listas e controlar menus |
-| `switch` | Seleção de opções |
-| `try/catch` | Tratamento de entradas inválidas |
+- **Java**
+- `Scanner` para leitura de dados.
+- `ArrayList` para armazenamento das tarefas.
+- Métodos para organização do código.
+- Estruturas condicionais e laços de repetição.
+- Tratamento de exceções com `try/catch`.
 
-### 🚀 Como executar
+## 🚀 Como executar
 
 **Pré-requisito:** Java JDK instalado.
 
 1. Clone o repositório:
 
    ```bash
-   git clone URL_DO_SEU_REPOSITORIO
+   git clone URL_DO_REPOSITORIO
    ```
 
-2. Entre na pasta do projeto:
-
-   ```bash
-   cd NOME_DO_REPOSITORIO
-   ```
-
-3. Compile os arquivos Java:
+2. Acesse a pasta do projeto e compile:
 
    ```bash
    javac App.java
    ```
 
-4. Execute a aplicação:
+3. Execute:
 
    ```bash
    java App
    ```
 
-> Se o projeto estiver dividido em vários arquivos, compile também os demais arquivos `.java` ou utilize uma IDE Java.
+## 🎯 Objetivo
 
-### 📚 Objetivo de aprendizado
-
-Este projeto faz parte da minha jornada de aprendizado em Java. O foco é desenvolver autonomia na resolução de problemas, consolidar os fundamentos da linguagem e evoluir gradualmente para aplicações mais robustas e bem estruturadas.
+Consolidar os fundamentos de Java por meio da prática, desenvolvendo lógica de programação, organização de código e manipulação de coleções.
 
 ---
 
-## ☕ Task Manager — Java
+# ☕ Task Manager | Java
 
-<p align="center">
-  A console application built to practice Java, strengthen programming logic, and learn how to develop well-structured applications.
-</p>
+## About
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+">
-  <img src="https://img.shields.io/badge/Status-In%20development-blue?style=for-the-badge" alt="In development">
-  <img src="https://img.shields.io/badge/Project-Educational-green?style=for-the-badge" alt="Educational project">
-</p>
+A console-based mini project developed in Java to practice programming logic and reinforce the fundamentals of the language.
 
-### 📌 About
+The application allows users to register tasks with names and scheduled times, view registered tasks, and remove selected items.
 
-The **Task Manager** is a Java console application created to reinforce programming fundamentals through hands-on development.
+## Features
 
-The application allows users to register tasks with names and scheduled times, view registered tasks, and remove selected tasks. The project is still in development, with additional features planned as programming skills improve.
+- ✅ Register tasks with names and scheduled times.
+- ✅ Display registered tasks.
+- ✅ Remove selected tasks.
+- ✅ Validate user input.
+- ✅ Interactive console menu.
 
-### ⚙️ Features
+## Technologies
 
-- [x] Register tasks with names and scheduled times.
-- [x] Display registered tasks.
-- [x] Remove selected tasks.
-- [ ] Mark tasks as completed and track their status.
-- [ ] Display task statistics.
+- **Java**
+- `Scanner` for user input.
+- `ArrayList` for task storage.
+- Methods and control flow.
+- Exception handling with `try/catch`.
 
-### 🛠️ Technologies and concepts
+## Learning objective
 
-- **Java** — primary programming language.
-- **Scanner** — user input.
-- **ArrayList** — in-memory data storage.
-- **Methods** — code organization and reuse.
-- **Loops** — list traversal and menu control.
-- **Switch statements** — menu option selection.
-- **Exception handling** — handling invalid input.
-
-### 🚀 How to run
-
-**Prerequisite:** Java JDK installed.
-
-1. Clone the repository:
-
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd YOUR_REPOSITORY_NAME
-   ```
-
-3. Compile the application:
-
-   ```bash
-   javac App.java
-   ```
-
-4. Run the application:
-
-   ```bash
-   java App
-   ```
-
-### 📚 Learning goals
-
-This project is part of my Java learning journey. Its main goal is to develop problem-solving skills, reinforce programming fundamentals, and gradually build more robust and well-structured applications.
+Reinforce Java fundamentals through practical application development, improving problem-solving skills, code organization, and collection handling.
 
 ---
 
 <p align="center">
-  <i>One project at a time. One concept at a time. Always learning. 🚀</i>
+  <i>Built with Java and a lot of practice. 🚀</i>
 </p>
