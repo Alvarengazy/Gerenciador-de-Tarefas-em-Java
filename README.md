@@ -1,22 +1,20 @@
 # ☕ Gerenciador de Tarefas | Java
 
 <p align="center">
-  Um mini projeto de console desenvolvido em Java para praticar lógica de programação e os fundamentos da linguagem.
+  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Status-Concluído-2ea44f?style=for-the-badge" alt="Projeto concluído">
+  <img src="https://img.shields.io/badge/Tipo-Mini%20Projeto-blue?style=for-the-badge" alt="Mini projeto">
 </p>
 
 <p align="center">
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![Status](https://img.shields.io/badge/Status-Concluído-2ea44f?style=for-the-badge)
-  ![Tipo](https://img.shields.io/badge/Projeto-Mini%20Projeto-blue?style=for-the-badge)
+  Mini projeto de console desenvolvido em Java para praticar lógica de programação e os fundamentos da linguagem.
 </p>
 
 ---
 
 ## 📌 Sobre o projeto
 
-O Gerenciador de Tarefas é uma aplicação de console que permite cadastrar tarefas com nome e horário, visualizar as tarefas registradas e remover itens da lista.
-
-O projeto foi desenvolvido como exercício prático para consolidar conhecimentos de Java e desenvolver a capacidade de construir aplicações funcionais.
+Aplicação de console que permite cadastrar tarefas com nome e horário, visualizar as tarefas registradas e remover itens da lista.
 
 ## ⚙️ Funcionalidades
 
@@ -26,36 +24,24 @@ O projeto foi desenvolvido como exercício prático para consolidar conhecimento
 - ✅ Validação de entradas.
 - ✅ Menu interativo pelo console.
 
-## 🛠️ Tecnologias e conceitos
+## 🛠️ Tecnologias
 
-- **Java**
-- `Scanner` para leitura de dados.
-- `ArrayList` para armazenamento das tarefas.
-- Métodos para organização do código.
-- Estruturas condicionais e laços de repetição.
-- Tratamento de exceções com `try/catch`.
+- Java
+- `Scanner`
+- `ArrayList`
+- Métodos e estruturas de controle
+- Tratamento de exceções com `try/catch`
 
 ## 🚀 Como executar
 
 **Pré-requisito:** Java JDK instalado.
 
-1. Clone o repositório:
-
-   ```bash
-   git clone URL_DO_REPOSITORIO
-   ```
-
-2. Acesse a pasta do projeto e compile:
-
-   ```bash
-   javac App.java
-   ```
-
-3. Execute:
-
-   ```bash
-   java App
-   ```
+```bash
+git clone URL_DO_REPOSITORIO
+cd NOME_DO_REPOSITORIO
+javac App.java
+java App
+```
 
 ## 🎯 Objetivo
 
@@ -67,11 +53,9 @@ Consolidar os fundamentos de Java por meio da prática, desenvolvendo lógica de
 
 ## About
 
-A console-based mini project developed in Java to practice programming logic and reinforce the fundamentals of the language.
+A Java console mini project created to practice programming logic and reinforce the fundamentals of the language.
 
-The application allows users to register tasks with names and scheduled times, view registered tasks, and remove selected items.
-
-## Features
+### Features
 
 - ✅ Register tasks with names and scheduled times.
 - ✅ Display registered tasks.
@@ -79,20 +63,16 @@ The application allows users to register tasks with names and scheduled times, v
 - ✅ Validate user input.
 - ✅ Interactive console menu.
 
-## Technologies
+### Technologies
 
-- **Java**
-- `Scanner` for user input.
-- `ArrayList` for task storage.
-- Methods and control flow.
-- Exception handling with `try/catch`.
+Java · Scanner · ArrayList · Methods · Control flow · Exception handling
 
-## Learning objective
+### Learning objective
 
-Reinforce Java fundamentals through practical application development, improving problem-solving skills, code organization, and collection handling.
+Reinforce Java fundamentals through hands-on development and improve problem-solving skills and code organization.
 
 ---
 
 <p align="center">
-  <i>Built with Java and a lot of practice. 🚀</i>
+  Built with Java and practice. 🚀
 </p>
