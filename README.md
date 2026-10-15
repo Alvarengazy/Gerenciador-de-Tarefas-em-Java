@@ -1,40 +1,46 @@
-# Gerenciador de Tarefas | Task Manager
+# ☕ Gerenciador de Tarefas — Java
 
-🇧🇷 [Português](#português) · 🇺🇸 [English](#english)
+<p align="center">
+  Um projeto de console desenvolvido para praticar Java, fortalecer a lógica de programação e aprender a construir aplicações organizadas.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+">
+  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-blue?style=for-the-badge" alt="Em desenvolvimento">
+  <img src="https://img.shields.io/badge/Projeto-Educacional-green?style=for-the-badge" alt="Projeto educacional">
+</p>
 
 ---
 
-<a id="português"></a>
+## 📌 Sobre o projeto
 
-## 🇧🇷 Português
+O **Gerenciador de Tarefas** é uma aplicação de console desenvolvida em Java com o objetivo de consolidar os fundamentos da programação por meio de um projeto prático.
 
-### Sobre o projeto
+A aplicação permite cadastrar tarefas com nome e horário, visualizar os registros e remover tarefas. O projeto está em desenvolvimento e será expandido com novas funcionalidades conforme o avanço dos estudos.
 
-O **Gerenciador de Tarefas** é uma aplicação de console desenvolvida em Java para praticar os fundamentos da programação e a organização de código.
+### ⚙️ Funcionalidades
 
-O projeto permite registrar tarefas e seus horários, consultar as tarefas cadastradas e remover tarefas existentes. Seu desenvolvimento também serve como exercício para aprimorar a lógica de programação, a validação de entradas e a utilização de coleções.
+- [x] Cadastro de tarefas com nome e horário.
+- [x] Listagem de tarefas cadastradas.
+- [x] Remoção de tarefas selecionadas.
+- [ ] Conclusão e acompanhamento do status das tarefas.
+- [ ] Estatísticas das tarefas.
 
-### Funcionalidades
+### 🛠️ Tecnologias e conceitos
 
-- [x] Cadastrar tarefas com nome e horário.
-- [x] Listar tarefas cadastradas.
-- [x] Remover tarefas pelo número correspondente na lista.
-- [ ] Concluir tarefas e acompanhar seu status.
-- [ ] Exibir estatísticas das tarefas.
-- [x] Validar campos de texto vazios.
-- [x] Tratar entradas numéricas inválidas durante o cadastro de horários.
+| Tecnologia / conceito | Aplicação |
+|---|---|
+| Java | Linguagem principal |
+| `Scanner` | Leitura de entradas |
+| `ArrayList` | Armazenamento de dados em memória |
+| Métodos | Organização e reutilização de código |
+| Estruturas de repetição | Percorrer listas e controlar menus |
+| `switch` | Seleção de opções |
+| `try/catch` | Tratamento de entradas inválidas |
 
-### Tecnologias utilizadas
+### 🚀 Como executar
 
-- **Java** — linguagem de programação.
-- **Scanner** — leitura de entradas do usuário.
-- **ArrayList** — armazenamento e gerenciamento de tarefas.
-- **Estruturas de controle** — condicionais, laços de repetição e `switch`.
-- **Tratamento de exceções** — utilização de `try/catch` para lidar com entradas inválidas.
-
-### Como executar
-
-**Pré-requisitos:** Java JDK instalado.
+**Pré-requisito:** Java JDK instalado.
 
 1. Clone o repositório:
 
@@ -48,7 +54,7 @@ O projeto permite registrar tarefas e seus horários, consultar as tarefas cadas
    cd NOME_DO_REPOSITORIO
    ```
 
-3. Compile o arquivo:
+3. Compile os arquivos Java:
 
    ```bash
    javac App.java
@@ -60,47 +66,51 @@ O projeto permite registrar tarefas e seus horários, consultar as tarefas cadas
    java App
    ```
 
-### Armazenamento de dados
+> Se o projeto estiver dividido em vários arquivos, compile também os demais arquivos `.java` ou utilize uma IDE Java.
 
-As tarefas são armazenadas em memória utilizando `ArrayList`. Portanto, os dados não são persistidos quando a aplicação é encerrada.
+### 📚 Objetivo de aprendizado
 
-### Objetivo de aprendizado
-
-Este projeto faz parte da minha jornada de aprendizado em Java, com foco em consolidar os fundamentos da linguagem por meio da construção de aplicações práticas.
-
-O desenvolvimento busca melhorar a lógica de programação, a organização de métodos, a manipulação de coleções e a criação de soluções progressivamente mais robustas.
+Este projeto faz parte da minha jornada de aprendizado em Java. O foco é desenvolver autonomia na resolução de problemas, consolidar os fundamentos da linguagem e evoluir gradualmente para aplicações mais robustas e bem estruturadas.
 
 ---
 
-<a id="english"></a>
+## ☕ Task Manager — Java
 
-## 🇺🇸 English
+<p align="center">
+  A console application built to practice Java, strengthen programming logic, and learn how to develop well-structured applications.
+</p>
 
-### About the project
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+">
+  <img src="https://img.shields.io/badge/Status-In%20development-blue?style=for-the-badge" alt="In development">
+  <img src="https://img.shields.io/badge/Project-Educational-green?style=for-the-badge" alt="Educational project">
+</p>
 
-The **Task Manager** is a Java console application developed to practice programming fundamentals and code organization.
+### 📌 About
 
-The application allows users to register tasks and their scheduled times, view registered tasks, and remove existing tasks. Its development also provides hands-on practice with programming logic, input validation, and collection management.
+The **Task Manager** is a Java console application created to reinforce programming fundamentals through hands-on development.
 
-### Features
+The application allows users to register tasks with names and scheduled times, view registered tasks, and remove selected tasks. The project is still in development, with additional features planned as programming skills improve.
 
-- [x] Register tasks with a name and scheduled time.
+### ⚙️ Features
+
+- [x] Register tasks with names and scheduled times.
 - [x] Display registered tasks.
-- [x] Remove tasks using their corresponding list number.
+- [x] Remove selected tasks.
 - [ ] Mark tasks as completed and track their status.
 - [ ] Display task statistics.
-- [x] Validate empty text fields.
-- [x] Handle invalid numeric input when registering task times.
 
-### Technologies
+### 🛠️ Technologies and concepts
 
-- **Java** — programming language.
-- **Scanner** — user input handling.
-- **ArrayList** — task storage and management.
-- **Control flow** — conditionals, loops, and `switch` statements.
-- **Exception handling** — `try/catch` to handle invalid input.
+- **Java** — primary programming language.
+- **Scanner** — user input.
+- **ArrayList** — in-memory data storage.
+- **Methods** — code organization and reuse.
+- **Loops** — list traversal and menu control.
+- **Switch statements** — menu option selection.
+- **Exception handling** — handling invalid input.
 
-### How to run
+### 🚀 How to run
 
 **Prerequisite:** Java JDK installed.
 
@@ -116,7 +126,7 @@ The application allows users to register tasks and their scheduled times, view r
    cd YOUR_REPOSITORY_NAME
    ```
 
-3. Compile the source file:
+3. Compile the application:
 
    ```bash
    javac App.java
@@ -128,17 +138,12 @@ The application allows users to register tasks and their scheduled times, view r
    java App
    ```
 
-### Data storage
+### 📚 Learning goals
 
-Tasks are stored in memory using `ArrayList`. Therefore, the data is not persisted after the application is closed.
-
-### Learning goals
-
-This project is part of my Java learning journey, focused on consolidating programming fundamentals through practical application development.
-
-The development process aims to improve programming logic, method organization, collection handling, and the ability to build increasingly robust solutions.
+This project is part of my Java learning journey. Its main goal is to develop problem-solving skills, reinforce programming fundamentals, and gradually build more robust and well-structured applications.
 
 ---
 
-**Project status:** In development | Em desenvolvimento
-
+<p align="center">
+  <i>One project at a time. One concept at a time. Always learning. 🚀</i>
+</p>
